@@ -1,9 +1,6 @@
 /*
-
 Softy Pinko
-
 https://templatemo.com/tm-535-softy-pinko
-
 */
 /* ---------------------------------------------
 Table of contents
@@ -20,7 +17,6 @@ Table of contents
 10. contact
 11. footer
 12. preloader
-
 --------------------------------------------- */
 /* 
 ---------------------------------------------
@@ -196,7 +192,7 @@ body {
 }
 
 .section.colored {
-  background: #f2f2fe;
+  background: #c7743a;
 }
 
 .hr {
@@ -209,6 +205,15 @@ body {
 
 .left-heading.light .section-title {
   color: #ffffff;
+}
+
+.section-title-brown {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 28px;
+  letter-spacing: 1.75px;
+  line-height: 38px;
+  margin-bottom: 20px;
 }
 
 .left-heading .section-title {
@@ -243,6 +248,16 @@ body {
   font-weight: 400;
   font-size: 16px;
   color: #777;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+
+.center-text-brown {
+  color: rgb(248, 248, 248);
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 28px;
   letter-spacing: 1px;
   margin-bottom: 50px;
@@ -744,7 +759,7 @@ welcome
   color: #fff;
   line-height: 28px;
   letter-spacing: 0.25px;
-  margin-bottom: 40px;
+  margin-bottom: 5px;
   position: relative;
 }
 
@@ -941,6 +956,12 @@ parallax & home seperator
 .mini .mini-content {
   position: relative;
   z-index: 3;
+}
+
+.info-form {
+  text-align: center;
+  color: #fff;
+  padding: -20px;
 }
 
 .mini .mini-content .info {
@@ -1194,7 +1215,7 @@ team
 .team-item {
   background: #fff;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
+  border-radius: 10px;
   position: relative;
   margin-bottom: 30px;
   padding-bottom: 25px;
@@ -1214,8 +1235,8 @@ team
 }
 
 .team-item .user-image {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   overflow: hidden;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
@@ -1226,6 +1247,8 @@ team
   transition: all 0.3s ease 0s;
   margin-left: 25px;
   float: left;
+  align-items: center;
+  justify-content: center;
 }
 
 .team-item .team-content {
@@ -1596,7 +1619,7 @@ preloader
 */
 #preloader {
   overflow: hidden;
-  background-image: linear-gradient(135deg, #a759d1 0%, #8261ee 100%);
+  background-image: url('../images/banner-bg.jpg');
   left: 0;
   right: 0;
   top: 0;
